@@ -33,3 +33,7 @@ int SommaElementiArray(int[] array)
     }
     return somma;
 }
+
+//stampo l'array di numeri fornito a video
+Console.WriteLine("Array di numeri fornito: ");
+StampaArray(array);
