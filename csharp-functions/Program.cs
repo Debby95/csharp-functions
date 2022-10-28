@@ -20,3 +20,16 @@ int Quadrato(int numero)
     int quadratoNum = numero * numero;
     return quadratoNum;
 }
+
+//int SommaElementiArray(int[] array): che preso un array di numeri interi,
+//restituisca la somma totale di tutti gli elementi dell’array.
+
+int SommaElementiArray(int[] array)
+{
+    int somma = 0;
+    for(int i = 0; i < array.Length; i++)
+    {
+        somma += array[i];
+    }
+    return somma;
+}
