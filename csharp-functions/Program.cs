@@ -21,6 +21,18 @@ int Quadrato(int numero)
     return quadratoNum;
 }
 
+//int[] ElevaArrayAlQuadrato(int[] array): che preso un array di numeri interi, restituisca un nuovo array con tutti gli elementi elevati quadrato.
+//Attenzione: è importante restituire un nuovo array, e non modificare l’array come parametro della funzione! Vi ricordate perchè? Pensateci (vedi slide)
+int[] ElevaArrayAlQuadrato(int[] array)
+{
+    int[] arrayAlQuadrato = new int[array.Length];
+    for (int i = 0; i < array.Length; i++)
+    {
+        arrayAlQuadrato[i] = array[i];
+    }
+    return arrayAlQuadrato;
+}
+
 //int SommaElementiArray(int[] array): che preso un array di numeri interi,
 //restituisca la somma totale di tutti gli elementi dell’array.
 
@@ -37,3 +49,4 @@ int SommaElementiArray(int[] array)
 //stampo l'array di numeri fornito a video
 Console.WriteLine("Array di numeri fornito: ");
 StampaArray(array);
+
