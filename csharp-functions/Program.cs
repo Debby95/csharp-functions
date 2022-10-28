@@ -13,6 +13,10 @@ void StampaArray(int[] array)
     }
 }
 
+//int Quadrato(int numero): che vi restituisca il quadrato del numero passato come parametro.
 
-
-    
+int Quadrato(int numero)
+{
+    int quadratoNum = numero * numero;
+    return quadratoNum;
+}
