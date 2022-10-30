@@ -75,3 +75,4 @@ StampaArray(array);
 //Stampare la somma di tutti i numeri
 Console.WriteLine("Stampo la somma di tutti i numeri: " + somma);
 
+ 
