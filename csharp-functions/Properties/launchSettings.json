@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "csharp-functions": {
+      "commandName": "Project"
+    },
+    "Profilo 1": {
+      "commandName": "Project"
+    }
+  }
+}
